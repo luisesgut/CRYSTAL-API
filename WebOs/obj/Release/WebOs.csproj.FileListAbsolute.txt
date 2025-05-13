@@ -109,5 +109,9 @@ C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\obj\Release\WebOs.csproj.CoreCo
 C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\obj\Release\WebOs.csproj.Up2Date
 C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\obj\Release\WebOs.dll
 C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\obj\Release\WebOs.pdb
-C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\TestV3.rpt
-C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\TestV3.cs
+C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\ReportsExtrusion\ReportePorOT.rpt
+C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\ReportsExtrusion\ReportePorOT.cs
+C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaYMaquina.rpt
+C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\ReportsExtrusion\ReporteConsumoOT.rpt
+C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaYMaquina.cs
+C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\ReportsExtrusion\ReporteConsumoOT.cs

@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\luiss\Desktop\PUBLIZHH_CRYSTALZZ</_PublishTargetUrl>
-    <History>True|2025-05-12T23:25:49.7757581Z;</History>
+    <History>True|2025-05-13T23:24:21.2708043Z;True|2025-05-13T17:23:24.1314958-06:00;True|2025-05-12T17:25:49.7757581-06:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -161,6 +161,24 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>03/08/2023 07:09:56</publishTime>
+    </File>
+    <File Include="bin/Reports/ReportsExtrusion/ReporteConsumoOT.cs">
+      <publishTime>05/13/2025 17:20:14</publishTime>
+    </File>
+    <File Include="bin/Reports/ReportsExtrusion/ReporteConsumoOT.rpt">
+      <publishTime>05/13/2025 16:52:11</publishTime>
+    </File>
+    <File Include="bin/Reports/ReportsExtrusion/ReporteFechaYMaquina.cs">
+      <publishTime>05/13/2025 17:20:13</publishTime>
+    </File>
+    <File Include="bin/Reports/ReportsExtrusion/ReporteFechaYMaquina.rpt">
+      <publishTime>05/13/2025 16:52:28</publishTime>
+    </File>
+    <File Include="bin/Reports/ReportsExtrusion/ReportePorOT.cs">
+      <publishTime>05/13/2025 17:20:12</publishTime>
+    </File>
+    <File Include="bin/Reports/ReportsExtrusion/ReportePorOT.rpt">
+      <publishTime>05/13/2025 10:50:43</publishTime>
     </File>
     <File Include="bin/Reports/TestV3.cs">
       <publishTime>05/13/2025 10:50:44</publishTime>
@@ -352,10 +370,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/23/2014 13:57:34</publishTime>
     </File>
     <File Include="bin/WebOs.dll">
-      <publishTime>05/13/2025 10:57:12</publishTime>
+      <publishTime>05/13/2025 17:24:20</publishTime>
     </File>
     <File Include="bin/WebOs.pdb">
-      <publishTime>05/13/2025 10:57:12</publishTime>
+      <publishTime>05/13/2025 17:24:20</publishTime>
     </File>
     <File Include="Content/bootstrap-grid.css">
       <publishTime>05/12/2025 11:38:07</publishTime>
@@ -461,6 +479,15 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="Global.asax">
       <publishTime>05/12/2025 11:38:04</publishTime>
+    </File>
+    <File Include="Reports/ReportsExtrusion/ReporteConsumoOT.rpt">
+      <publishTime>05/13/2025 16:52:11</publishTime>
+    </File>
+    <File Include="Reports/ReportsExtrusion/ReporteFechaYMaquina.rpt">
+      <publishTime>05/13/2025 16:52:28</publishTime>
+    </File>
+    <File Include="Reports/ReportsExtrusion/ReportePorOT.rpt">
+      <publishTime>05/13/2025 10:50:43</publishTime>
     </File>
     <File Include="Reports/TestV3.rpt">
       <publishTime>05/13/2025 10:50:43</publishTime>

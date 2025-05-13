@@ -9,10 +9,10 @@ using CrystalDecisions.Shared;
 
 namespace WebOs.Controllers
 {
-    public class TestController : ApiController
+    public class ReportePorOTController : ApiController
     {
         [HttpGet]
-        [Route("api/orden-pdf")]
+        [Route("api/reportePorOT")]
         public HttpResponseMessage GenerarPorOT(string ot)
         {
             try
@@ -22,7 +22,7 @@ namespace WebOs.Controllers
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "❌ El parámetro 'OT' debe ser numérico.");
 
                 // Verificar archivo
-                string rutaReporte = System.Web.Hosting.HostingEnvironment.MapPath("~/Reports/TestV3.rpt");
+                string rutaReporte = System.Web.Hosting.HostingEnvironment.MapPath("~/Reports/ReportsExtrusion/ReportePorOT.rpt");
                 if (!File.Exists(rutaReporte))
                     return Request.CreateErrorResponse(HttpStatusCode.NotFound, $"❌ No se encontró el reporte en: {rutaReporte}");
 
@@ -52,10 +52,15 @@ namespace WebOs.Controllers
                 // Parámetro OT
                 reporte.SetParameterValue("OT", otNumerico);
 
-                // Exportar
+                // Exportar a PDF
                 Stream pdf = reporte.ExportToStream(ExportFormatType.PortableDocFormat);
                 pdf.Seek(0, SeekOrigin.Begin);
 
+                // Crear nombre único de archivo con timestamp
+                string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+                string fileName = $"Orden_{otNumerico}_{timestamp}.pdf";
+
+                // Preparar respuesta
                 var response = new HttpResponseMessage(HttpStatusCode.OK)
                 {
                     Content = new StreamContent(pdf)
@@ -63,14 +68,14 @@ namespace WebOs.Controllers
                 response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/pdf");
                 response.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("inline")
                 {
-                    FileName = $"Orden_{otNumerico}.pdf"
+                    FileName = fileName
                 };
 
                 return response;
             }
             catch (Exception ex)
             {
-                // Analiza el mensaje para dar una mejor respuesta
+                // Análisis del error
                 string msg = ex.Message.ToLower();
 
                 if (msg.Contains("logon failed") || msg.Contains("no se pudo conectar"))
@@ -91,3 +96,4 @@ namespace WebOs.Controllers
         }
     }
 }
+

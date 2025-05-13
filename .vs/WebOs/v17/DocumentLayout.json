@@ -3,27 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luiss\\Desktop\\PUBLIZHH_CRYSTALZZ\\Global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}"
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\luiss\\desktop\\cryztalzz_web\\webos\\webos\\controllers\\extrusion\\reporteporotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\extrusion\\reporteporotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\luiss\\desktop\\cryztalzz_web\\webos\\webos\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\luiss\\desktop\\cryztalzz_web\\webos\\webos\\controllers\\extrusion\\reportefechaymaquinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\extrusion\\reportefechaymaquinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\luiss\\desktop\\cryztalzz_web\\webos\\webos\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\luiss\\desktop\\cryztalzz_web\\webos\\webos\\controllers\\extrusion\\reportedeconsumootcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\extrusion\\reportedeconsumootcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\luiss\\desktop\\cryztalzz_web\\webos\\webos\\reports\\testv3.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
-      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\reports\\testv3.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\luiss\\desktop\\cryztalzz_web\\webos\\webos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\webos\\reports\\test1.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
-      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\reports\\test1.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\luiss\\desktop\\cryztalzz_web\\webos\\webos\\reports\\reportsextrusion\\reporteconsumoot.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\reports\\reportsextrusion\\reporteconsumoot.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\webos\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\luiss\\desktop\\cryztalzz_web\\webos\\webos\\reports\\reportsextrusion\\reportefechaymaquina.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\reports\\reportsextrusion\\reportefechaymaquina.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luiss\\Desktop\\PUBLIZHH_CRYSTALZZ\\Global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\webos\\reports\\testv3.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\reports\\testv3.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,11 +45,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ReporteDeConsumoOTController.cs",
+              "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\Extrusion\\ReporteDeConsumoOTController.cs",
+              "RelativeDocumentMoniker": "WebOs\\Controllers\\Extrusion\\ReporteDeConsumoOTController.cs",
+              "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\Extrusion\\ReporteDeConsumoOTController.cs",
+              "RelativeToolTip": "WebOs\\Controllers\\Extrusion\\ReporteDeConsumoOTController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:52:37.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Global.asax",
               "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\PUBLIZHH_CRYSTALZZ\\Global.asax",
               "RelativeDocumentMoniker": "..\\..\\PUBLIZHH_CRYSTALZZ\\Global.asax",
@@ -50,38 +75,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReporteController.cs",
-              "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\ReporteController.cs",
-              "RelativeDocumentMoniker": "WebOs\\Controllers\\ReporteController.cs",
-              "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\ReporteController.cs",
-              "RelativeToolTip": "WebOs\\Controllers\\ReporteController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:39:33.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TestV3.rpt",
               "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Reports\\TestV3.rpt",
               "RelativeDocumentMoniker": "WebOs\\Reports\\TestV3.rpt",
               "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Reports\\TestV3.rpt",
               "RelativeToolTip": "WebOs\\Reports\\TestV3.rpt",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-05-12T19:39:12.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T19:39:12.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "WebOs\\Controllers\\TestController.cs",
-              "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\TestController.cs",
-              "RelativeToolTip": "WebOs\\Controllers\\TestController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ReportePorOTController.cs",
+              "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\Extrusion\\ReportePorOTController.cs",
+              "RelativeDocumentMoniker": "WebOs\\Controllers\\Extrusion\\ReportePorOTController.cs",
+              "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\Extrusion\\ReportePorOTController.cs",
+              "RelativeToolTip": "WebOs\\Controllers\\Extrusion\\ReportePorOTController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABgAAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T18:32:32.453Z",
               "EditorCaption": ""
@@ -94,20 +105,60 @@
               "RelativeDocumentMoniker": "WebOs\\Controllers\\ValuesController.cs",
               "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "WebOs\\Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:57:28.347Z"
+              "WhenOpened": "2025-05-12T17:57:28.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Test1.rpt",
-              "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Reports\\Test1.rpt",
-              "RelativeDocumentMoniker": "WebOs\\Reports\\Test1.rpt",
-              "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Reports\\Test1.rpt",
-              "RelativeToolTip": "WebOs\\Reports\\Test1.rpt",
+              "Title": "ReporteConsumoOT.rpt",
+              "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Reports\\ReportsExtrusion\\ReporteConsumoOT.rpt",
+              "RelativeDocumentMoniker": "WebOs\\Reports\\ReportsExtrusion\\ReporteConsumoOT.rpt",
+              "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Reports\\ReportsExtrusion\\ReporteConsumoOT.rpt",
+              "RelativeToolTip": "WebOs\\Reports\\ReportsExtrusion\\ReporteConsumoOT.rpt",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-05-12T17:40:51.535Z"
+              "WhenOpened": "2025-05-13T22:52:04.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReporteFechaYMaquinaController.cs",
+              "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\Extrusion\\ReporteFechaYMaquinaController.cs",
+              "RelativeDocumentMoniker": "WebOs\\Controllers\\Extrusion\\ReporteFechaYMaquinaController.cs",
+              "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\Extrusion\\ReporteFechaYMaquinaController.cs",
+              "RelativeToolTip": "WebOs\\Controllers\\Extrusion\\ReporteFechaYMaquinaController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:51:25.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebOs\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebOs\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T23:02:57.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReporteFechaYMaquina.rpt",
+              "DocumentMoniker": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Reports\\ReportsExtrusion\\ReporteFechaYMaquina.rpt",
+              "RelativeDocumentMoniker": "WebOs\\Reports\\ReportsExtrusion\\ReporteFechaYMaquina.rpt",
+              "ToolTip": "C:\\Users\\luiss\\Desktop\\CRYZTALZZ_WEB\\WebOs\\WebOs\\Reports\\ReportsExtrusion\\ReporteFechaYMaquina.rpt",
+              "RelativeToolTip": "WebOs\\Reports\\ReportsExtrusion\\ReporteFechaYMaquina.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-05-13T18:48:53.441Z",
+              "EditorCaption": ""
             }
           ]
         }

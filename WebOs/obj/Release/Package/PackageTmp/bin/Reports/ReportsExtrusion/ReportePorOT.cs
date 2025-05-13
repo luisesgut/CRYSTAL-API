@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebOs.Reports {
+namespace WebOs.Reports.ReportsExtrusion {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;
@@ -16,14 +16,14 @@ namespace WebOs.Reports {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class TestV2 : ReportClass {
+    public class ReportePorOT : ReportClass {
         
-        public TestV2() {
+        public ReportePorOT() {
         }
         
         public override string ResourceName {
             get {
-                return "TestV2.rpt";
+                return "ReportePorOT.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace WebOs.Reports {
         
         public override string FullResourceName {
             get {
-                return "WebOs.Reports.TestV2.rpt";
+                return "WebOs.Reports.ReportsExtrusion.ReportePorOT.rpt";
             }
             set {
                 // Do nothing
@@ -106,9 +106,9 @@ namespace WebOs.Reports {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedTestV2 : Component, ICachedReport {
+    public class CachedReportePorOT : Component, ICachedReport {
         
-        public CachedTestV2() {
+        public CachedReportePorOT() {
         }
         
         [Browsable(false)]
@@ -145,7 +145,7 @@ namespace WebOs.Reports {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            TestV2 rpt = new TestV2();
+            ReportePorOT rpt = new ReportePorOT();
             rpt.Site = this.Site;
             return rpt;
         }

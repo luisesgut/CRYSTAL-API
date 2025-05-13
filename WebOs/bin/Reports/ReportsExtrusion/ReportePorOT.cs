@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebOs.Reports {
+namespace WebOs.Reports.ReportsExtrusion {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;
@@ -16,14 +16,14 @@ namespace WebOs.Reports {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class Test1 : ReportClass {
+    public class ReportePorOT : ReportClass {
         
-        public Test1() {
+        public ReportePorOT() {
         }
         
         public override string ResourceName {
             get {
-                return "Test1.rpt";
+                return "ReportePorOT.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace WebOs.Reports {
         
         public override string FullResourceName {
             get {
-                return "WebOs.Reports.Test1.rpt";
+                return "WebOs.Reports.ReportsExtrusion.ReportePorOT.rpt";
             }
             set {
                 // Do nothing
@@ -50,7 +50,7 @@ namespace WebOs.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section1 {
+        public CrystalDecisions.CrystalReports.Engine.Section ReportHeaderSection1 {
             get {
                 return this.ReportDefinition.Sections[0];
             }
@@ -58,7 +58,7 @@ namespace WebOs.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section2 {
+        public CrystalDecisions.CrystalReports.Engine.Section PageHeaderSection1 {
             get {
                 return this.ReportDefinition.Sections[1];
             }
@@ -66,7 +66,7 @@ namespace WebOs.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section3 {
+        public CrystalDecisions.CrystalReports.Engine.Section DetailSection1 {
             get {
                 return this.ReportDefinition.Sections[2];
             }
@@ -74,7 +74,7 @@ namespace WebOs.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section4 {
+        public CrystalDecisions.CrystalReports.Engine.Section ReportFooterSection3 {
             get {
                 return this.ReportDefinition.Sections[3];
             }
@@ -82,7 +82,7 @@ namespace WebOs.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section5 {
+        public CrystalDecisions.CrystalReports.Engine.Section ReportFooterSection1 {
             get {
                 return this.ReportDefinition.Sections[4];
             }
@@ -90,7 +90,15 @@ namespace WebOs.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_nombre {
+        public CrystalDecisions.CrystalReports.Engine.Section PageFooterSection1 {
+            get {
+                return this.ReportDefinition.Sections[5];
+            }
+        }
+        
+        [Browsable(false)]
+        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public CrystalDecisions.Shared.IParameterField Parameter_OT {
             get {
                 return this.DataDefinition.ParameterFields[0];
             }
@@ -98,9 +106,9 @@ namespace WebOs.Reports {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedTest1 : Component, ICachedReport {
+    public class CachedReportePorOT : Component, ICachedReport {
         
-        public CachedTest1() {
+        public CachedReportePorOT() {
         }
         
         [Browsable(false)]
@@ -137,7 +145,7 @@ namespace WebOs.Reports {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            Test1 rpt = new Test1();
+            ReportePorOT rpt = new ReportePorOT();
             rpt.Site = this.Site;
             return rpt;
         }

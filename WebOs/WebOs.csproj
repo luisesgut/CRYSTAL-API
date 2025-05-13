@@ -159,35 +159,32 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ReporteController.cs" />
-    <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="Controllers\Extrusion\ReporteFechaYMaquinaController.cs" />
+    <Compile Include="Controllers\Extrusion\ReporteDeConsumoOTController.cs" />
+    <Compile Include="Controllers\Extrusion\ReportePorOTController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Reports\Informes.cs">
+    <Compile Include="Reports\ReportsExtrusion\ReporteFechaYMaquina.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Informes.rpt</DependentUpon>
+      <DependentUpon>ReporteFechaYMaquina.rpt</DependentUpon>
       <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reports\Test1.cs">
+    <Compile Include="Reports\ReportsExtrusion\ReportePorOT.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Test1.rpt</DependentUpon>
+      <DependentUpon>ReportePorOT.rpt</DependentUpon>
       <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Reports\TestV2.cs">
+    <Compile Include="Reports\ReportsExtrusion\ReporteConsumoOT.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>TestV2.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Reports\TestV3.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TestV3.rpt</DependentUpon>
+      <DependentUpon>ReporteConsumoOT.rpt</DependentUpon>
       <SubType>Component</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
@@ -336,21 +333,19 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Reports\Informes.rpt">
+    <Content Include="Reports\ReportsExtrusion\ReporteFechaYMaquina.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>Informes.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reports\Test1.rpt">
+      <LastGenOutput>ReporteFechaYMaquina.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\ReportsExtrusion\ReportePorOT.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>Test1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reports\TestV2.rpt">
+      <LastGenOutput>ReportePorOT.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\ReportsExtrusion\ReporteConsumoOT.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>TestV2.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Content Include="Reports\TestV3.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>TestV3.cs</LastGenOutput>
+      <LastGenOutput>ReporteConsumoOT.cs</LastGenOutput>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

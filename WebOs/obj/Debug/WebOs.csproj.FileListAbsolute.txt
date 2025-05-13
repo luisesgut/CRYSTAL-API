@@ -109,3 +109,5 @@ C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\CrystalDecisions.ReportAppS
 C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\stdole.dll
+C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\ReportsExtrusion\ReportePorOT.rpt
+C:\Users\luiss\Desktop\CRYZTALZZ_WEB\WebOs\WebOs\bin\Reports\ReportsExtrusion\ReportePorOT.cs
