@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\webos\\controllers\\extrusion\\reportefechaymaquinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\sistemas\\desktop\\bfx\\crystalreports\\crystal-api\\webos\\controllers\\extrusion\\reportefechaymaquinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\extrusion\\reportefechaymaquinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\sistemas\\desktop\\bfx\\crystalreports\\crystal-api\\webos\\controllers\\extrusion\\reportedeconsumootcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\extrusion\\reportedeconsumootcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\sistemas\\desktop\\bfx\\crystalreports\\crystal-api\\webos\\controllers\\extrusion\\reporteporotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\webos\\controllers\\extrusion\\reporteporotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\extrusion\\reporteporotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|c:\\users\\sistemas\\desktop\\bfx\\crystalreports\\crystal-api\\webos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\webos\\controllers\\extrusion\\reportedeconsumootcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\controllers\\extrusion\\reportedeconsumootcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\webos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{2FC90EE6-9179-4E73-8171-A808CD215D04}|WebOs\\WebOs.csproj|solutionrelative:webos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -30,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ReporteDeConsumoOTController.cs",
               "DocumentMoniker": "C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\WebOs\\Controllers\\Extrusion\\ReporteDeConsumoOTController.cs",
               "RelativeDocumentMoniker": "WebOs\\Controllers\\Extrusion\\ReporteDeConsumoOTController.cs",
               "ToolTip": "C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\WebOs\\Controllers\\Extrusion\\ReporteDeConsumoOTController.cs",
               "RelativeToolTip": "WebOs\\Controllers\\Extrusion\\ReporteDeConsumoOTController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T07:12:36.856Z",
               "EditorCaption": ""
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ReportePorOTController.cs",
               "DocumentMoniker": "C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\WebOs\\Controllers\\Extrusion\\ReportePorOTController.cs",
               "RelativeDocumentMoniker": "WebOs\\Controllers\\Extrusion\\ReportePorOTController.cs",
               "ToolTip": "C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\WebOs\\Controllers\\Extrusion\\ReportePorOTController.cs",
               "RelativeToolTip": "WebOs\\Controllers\\Extrusion\\ReportePorOTController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T18:32:32.453Z",
               "EditorCaption": ""
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "WebOs\\Controllers\\Extrusion\\ReporteFechaYMaquinaController.cs",
               "ToolTip": "C:\\Users\\Sistemas\\Desktop\\BFX\\CRYSTALREPORTS\\CRYSTAL-API\\WebOs\\Controllers\\Extrusion\\ReporteFechaYMaquinaController.cs",
               "RelativeToolTip": "WebOs\\Controllers\\Extrusion\\ReporteFechaYMaquinaController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T18:51:25.844Z",
               "EditorCaption": ""
