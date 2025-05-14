@@ -1,9 +1,7 @@
 ﻿using CrystalDecisions.CrystalReports.Engine;
 using CrystalDecisions.Shared;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -13,6 +11,8 @@ namespace WebOs.Controllers
 {
     public class ReporteFechaYMaquinaController : ApiController
     {
+        private readonly string _storagePath = @"\\LEX\Users\DESARROLLOS\Documents\CrystalReports";
+
         [HttpGet]
         [Route("api/fechaYmaquina")]
         public HttpResponseMessage GenerarPorFechaYMaquina(string fecha, string maquina)
@@ -23,7 +23,7 @@ namespace WebOs.Controllers
                 if (string.IsNullOrEmpty(fecha) || string.IsNullOrEmpty(maquina))
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "❌ Los parámetros 'fecha' y 'maquina' son obligatorios.");
 
-                // Verificar archivo
+                // Verificar existencia del archivo .rpt
                 string rutaReporte = System.Web.Hosting.HostingEnvironment.MapPath("~/Reports/ReportsExtrusion/ReporteFechaYMaquina.rpt");
                 if (!File.Exists(rutaReporte))
                     return Request.CreateErrorResponse(HttpStatusCode.NotFound, $"❌ No se encontró el reporte en: {rutaReporte}");
@@ -51,17 +51,27 @@ namespace WebOs.Controllers
                     table.Location = $"{conn.DatabaseName}.dbo.{table.Name}";
                 }
 
-                // Establecer parámetros requeridos
-                reporte.SetParameterValue("fecha", fecha);   
+                // Establecer parámetros
+                reporte.SetParameterValue("fecha", fecha);
                 reporte.SetParameterValue("maquina", maquina);
 
-                // Exportar a PDF
-                Stream pdf = reporte.ExportToStream(ExportFormatType.PortableDocFormat);
-                pdf.Seek(0, SeekOrigin.Begin);
-
-                // Crear nombre único de archivo con timestamp
+                // Crear nombre único del archivo
                 string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-                string fileName = $"Maquina_{maquina}_{timestamp}.pdf";
+                string fileName = $"Reporte_{fecha}_{maquina}_{timestamp}.pdf";
+
+                // Asegurar que la carpeta de destino existe
+                if (!Directory.Exists(_storagePath))
+                    Directory.CreateDirectory(_storagePath);
+
+                // Ruta de destino del PDF
+                string rutaDestino = Path.Combine(_storagePath, fileName);
+
+                // Exportar a disco
+                reporte.ExportToDisk(ExportFormatType.PortableDocFormat, rutaDestino);
+
+                // Leer archivo para respuesta HTTP
+                Stream pdf = new FileStream(rutaDestino, FileMode.Open, FileAccess.Read);
+                pdf.Seek(0, SeekOrigin.Begin);
 
                 var response = new HttpResponseMessage(HttpStatusCode.OK)
                 {
@@ -70,7 +80,7 @@ namespace WebOs.Controllers
                 response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/pdf");
                 response.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("inline")
                 {
-                    FileName = $"Reporte_{fecha}_{maquina}.pdf"
+                    FileName = fileName
                 };
 
                 return response;
@@ -95,7 +105,5 @@ namespace WebOs.Controllers
                     $"❌ Error inesperado al generar el reporte.\n➡ {ex.Message}");
             }
         }
-
     }
 }
-

@@ -3,7 +3,6 @@ using CrystalDecisions.Shared;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -13,6 +12,8 @@ namespace WebOs.Controllers
 {
     public class ReporteDeConsumoOTController : ApiController
     {
+        private readonly string _storagePath = @"\\LEX\Users\DESARROLLOS\Documents\CrystalReports";
+
         [HttpGet]
         [Route("api/consumoOT")]
         public HttpResponseMessage GenerarPorOT(string ot)
@@ -23,7 +24,7 @@ namespace WebOs.Controllers
                 if (!int.TryParse(ot, out int otNumerico))
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "❌ El parámetro 'OT' debe ser numérico.");
 
-                // Verificar archivo
+                // Verificar archivo .rpt
                 string rutaReporte = System.Web.Hosting.HostingEnvironment.MapPath("~/Reports/ReportsExtrusion/ReporteConsumoOT.rpt");
                 if (!File.Exists(rutaReporte))
                     return Request.CreateErrorResponse(HttpStatusCode.NotFound, $"❌ No se encontró el reporte en: {rutaReporte}");
@@ -51,18 +52,27 @@ namespace WebOs.Controllers
                     table.Location = $"{conn.DatabaseName}.dbo.{table.Name}";
                 }
 
-                // Parámetro OT
+                // Asignar parámetro OT
                 reporte.SetParameterValue("OT", otNumerico);
 
-                // Exportar a PDF
-                Stream pdf = reporte.ExportToStream(ExportFormatType.PortableDocFormat);
+                // Crear nombre único con timestamp
+                string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+                string fileName = $"ConsumoOT_{otNumerico}_{timestamp}.pdf";
+
+                // Asegurar que la carpeta de destino existe
+                if (!Directory.Exists(_storagePath))
+                    Directory.CreateDirectory(_storagePath);
+
+                // Ruta completa donde guardar el PDF
+                string rutaDestino = Path.Combine(_storagePath, fileName);
+
+                // Exportar a disco
+                reporte.ExportToDisk(ExportFormatType.PortableDocFormat, rutaDestino);
+
+                // Leer el archivo para enviarlo al cliente
+                Stream pdf = new FileStream(rutaDestino, FileMode.Open, FileAccess.Read);
                 pdf.Seek(0, SeekOrigin.Begin);
 
-                // Crear nombre único de archivo con timestamp
-                string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-                string fileName = $"Orden_{otNumerico}_{timestamp}.pdf";
-
-                // Preparar respuesta
                 var response = new HttpResponseMessage(HttpStatusCode.OK)
                 {
                     Content = new StreamContent(pdf)
@@ -77,7 +87,7 @@ namespace WebOs.Controllers
             }
             catch (Exception ex)
             {
-                // Análisis del error
+                // Manejo de errores comunes
                 string msg = ex.Message.ToLower();
 
                 if (msg.Contains("logon failed") || msg.Contains("no se pudo conectar"))
