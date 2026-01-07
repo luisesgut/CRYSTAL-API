@@ -158,6 +158,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\Bolseo\BolseoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Extrusion\ReporteFechaYMaquinaController.cs" />
     <Compile Include="Controllers\Extrusion\ReporteDeConsumoOTController.cs" />
@@ -165,7 +166,34 @@
     <Compile Include="Controllers\Impresion\ImpresionReportePorOTController.cs" />
     <Compile Include="Controllers\Impresion\ReporteImpFechaYMaquinaController.cs" />
     <Compile Include="Controllers\Impresion\ResumenImpresionController.cs" />
+    <Compile Include="Controllers\Laminado\ProduccionLaminadoResumenController.cs" />
+    <Compile Include="Controllers\Laminado\ReporteLaminadoController.cs" />
+    <Compile Include="Controllers\Pouch\CrystalPouchController.cs" />
+    <Compile Include="Controllers\Programa\ProgramaController.cs" />
+    <Compile Include="Controllers\Refilado\ReporteFechaTurnoMaquinaController.cs" />
+    <Compile Include="Controllers\Refilado\ReporteResumenController.cs" />
+    <Compile Include="Controllers\UpdateRPTS\UpdateRPTController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportsRefilado\ProduccionMaquinaTurnoRefilado.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProduccionMaquinaTurnoRefilado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\ReportsPrograma\Programa2025.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Programa2025.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Reports\ReportsExtrusion\ReporteFechaMaquinaYTurnoV4.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -254,9 +282,16 @@
       <SubType>Component</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="Services\Bolseo\BolseoService.cs" />
     <Compile Include="Services\Extrusion\ArchivoService.cs" />
     <Compile Include="Services\Extrusion\CrystalReportService.cs" />
+    <Compile Include="Services\Extrusion\CrystalReportServiceExtrusion.cs" />
+    <Compile Include="Services\Impresion\CrystalReportServiceImpresion.cs" />
+    <Compile Include="Services\Laminado\CrystalReportServiceLaminado.cs" />
     <Compile Include="Services\OrdenService.cs" />
+    <Compile Include="Services\Pouch\CrystalReportServicePouch.cs" />
+    <Compile Include="Services\Programa\CrystalReportServicePrograma.cs" />
+    <Compile Include="Services\Refilado\CrystalReportServiceRefilado.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -479,6 +514,26 @@
       <LastGenOutput>ReporteFechaMaquinaYTurnoV4.cs</LastGenOutput>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\ReportsPrograma\Programa2025.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Programa2025.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\ReportsRefilado\ProduccionMaquinaTurnoRefilado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProduccionMaquinaTurnoRefilado.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
