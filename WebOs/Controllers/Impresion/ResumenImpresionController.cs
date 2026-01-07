@@ -25,7 +25,7 @@ namespace WebOs.Controllers.Impresion
                 if (año <= 0 || mes < 1 || mes > 12)
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "❌ Parámetros inválidos. Año y mes deben ser válidos.");
 
-                string rutaReporte = System.Web.Hosting.HostingEnvironment.MapPath("~/Reports/ReportsImpresion/ReporteResumenImp.rpt");
+                string rutaReporte = @"C:\Users\DESARROLLOS\Documents\CrystalReports\ReportesRPT\Impresion\ReporteResumenImp.rpt";
 
                 ReportDocument reporte = _reportService.CargarReporte(rutaReporte);
                 reporte.SetParameterValue("AÑO", año);

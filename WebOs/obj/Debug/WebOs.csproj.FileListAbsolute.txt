@@ -353,3 +353,13 @@ C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusi
 C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusion\ReporteConsumoOTV2.cs
 C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaYMaquinaYTurnoV2.rpt
 C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaYMaquinaYTurnoV2.cs
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsImpresion\ReporteImpOT.rpt
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaYMaquinaYTurnoV3.rpt
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsImpresion\ReporteImpFechaYMaquinaYTurno.rpt
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsImpresion\ReporteResumenImp.rpt
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaMaquinaYTurnoV4.rpt
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaMaquinaYTurnoV4.cs
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsImpresion\ReporteResumenImp.cs
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsImpresion\ReporteImpFechaYMaquinaYTurno.cs
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaYMaquinaYTurnoV3.cs
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsImpresion\ReporteImpOT.cs

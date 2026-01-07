@@ -250,3 +250,7 @@ C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsImpresi
 C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsImpresion\ReporteResumenImp.cs
 C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaMaquinaYTurnoV4.rpt
 C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsExtrusion\ReporteFechaMaquinaYTurnoV4.cs
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsPrograma\Programa2025.rpt
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsPrograma\Programa2025.cs
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsRefilado\ProduccionMaquinaTurnoRefilado.rpt
+C:\Users\luiss\Desktop\CRYZTALZ_GIT\CRYSTAL-API\WebOs\bin\Reports\ReportsRefilado\ProduccionMaquinaTurnoRefilado.cs
