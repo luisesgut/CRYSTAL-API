@@ -184,6 +184,7 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CrystalReport7.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\ReportsRefilado\ProduccionMaquinaTurnoRefilado.cs">
       <AutoGen>True</AutoGen>

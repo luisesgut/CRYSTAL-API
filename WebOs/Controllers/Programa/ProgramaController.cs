@@ -2,27 +2,51 @@
 using CrystalDecisions.Shared;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text;
+using System.Text.RegularExpressions;
 using System.Web.Http;
 using WebOs.Services;
 using WebOs.Services.Extrusion;
-// Asegúrate de que este using sea correcto para tu proyecto
-// using WebOs.Services.Extrusion; 
 
 namespace WebOs.Controllers
 {
     public class ReporteProgramaFechasController : ApiController
     {
-        // 💡 NOTA: Asegúrate de tener un servicio que se llame CrystalReportServicePrograma
-        // que maneje la lógica de conexión a la base de datos como vimos antes.
         private readonly CrystalReportServicePrograma _reportService = new CrystalReportServicePrograma();
         private readonly ArchivoService _archivoService = new ArchivoService();
 
         // Ruta donde se guardarán los PDFs generados
         private readonly string _storagePath = @"C:\Users\DESARROLLOS\Documents\CrystalReports\Programa\FechaInicioFechaFin";
+
+        /// <summary>
+        /// Limpia un texto para usarlo de forma segura en un nombre de archivo:
+        /// quita acentos (Conversión -> Conversion), reemplaza espacios y
+        /// caracteres raros por '_' y colapsa los guiones bajos repetidos.
+        /// </summary>
+        private string Sanitizar(string texto)
+        {
+            if (string.IsNullOrWhiteSpace(texto))
+                return "SinArea";
+
+            var descompuesto = texto.Normalize(NormalizationForm.FormD);
+            var sb = new StringBuilder();
+            foreach (var c in descompuesto)
+            {
+                if (CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark)
+                    sb.Append(c);
+            }
+
+            var limpio = sb.ToString().Normalize(NormalizationForm.FormC);
+            limpio = Regex.Replace(limpio, @"[^A-Za-z0-9_-]", "_"); // espacios, puntos y raros -> _
+            limpio = Regex.Replace(limpio, @"_+", "_").Trim('_');   // colapsa __ y limpia orillas
+
+            return string.IsNullOrEmpty(limpio) ? "SinArea" : limpio;
+        }
 
         [HttpGet]
         [Route("api/programaPorFechas")]
@@ -42,18 +66,16 @@ namespace WebOs.Controllers
                 // Ruta del archivo RPT
                 string rutaReporte = @"C:\Users\DESARROLLOS\Documents\CrystalReports\ReportesRPT\Programa\Programa2025.rpt";
 
-              
-
                 ReportDocument reporte = _reportService.CargarReporte(rutaReporte);
 
-                // Asignar parámetros
+                // Asignar parámetros — OJO: aquí va el nombre REAL con acentos, tal cual.
                 reporte.SetParameterValue("INICIO", fi);
                 reporte.SetParameterValue("FIN", ff);
                 reporte.SetParameterValue("Area", area);
 
-                // Crear nombre de archivo único
+                // Crear nombre de archivo único — aquí SÍ usamos la versión sanitizada.
                 string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-                string fileName = $"Programa_{area}_{fi:yyyyMMdd}_{ff:yyyyMMdd}_{timestamp}.pdf";
+                string fileName = $"Programa_{Sanitizar(area)}_{fi:yyyyMMdd}_{ff:yyyyMMdd}_{timestamp}.pdf";
 
                 // Asegurar que la carpeta de destino exista
                 _archivoService.AsegurarCarpeta(_storagePath);
@@ -64,13 +86,12 @@ namespace WebOs.Controllers
                 reporte.Close();
                 reporte.Dispose();
 
-                // Devolver una respuesta de éxito
-                var response = new HttpResponseMessage(HttpStatusCode.OK)
+                // Devolver una respuesta de éxito (objeto, para que el front lo lea limpio con res.json())
+                return Request.CreateResponse(HttpStatusCode.OK, new
                 {
-                    Content = new StringContent($"✅ Reporte generado exitosamente. Archivo: {fileName}")
-                };
-
-                return response;
+                    fileName = fileName,
+                    mensaje = "✅ Reporte generado exitosamente."
+                });
             }
             catch (Exception ex)
             {
@@ -94,7 +115,7 @@ namespace WebOs.Controllers
             response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/pdf");
             response.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("inline")
             {
-                FileName = fileName
+                FileNameStar = fileName // FileNameStar maneja no-ASCII sin tronar el header
             };
 
             return response;
@@ -104,7 +125,7 @@ namespace WebOs.Controllers
         [Route("api/programaPorFechas/recientes")]
         public IHttpActionResult ArchivosRecientes()
         {
-            var archivos = _archivoService.ObtenerArchivosRecientes(_storagePath, 10); // Mostramos los últimos 10
+            var archivos = _archivoService.ObtenerArchivosRecientes(_storagePath, 10); // Últimos 10
             return Ok(new { archivos });
         }
 
@@ -128,7 +149,7 @@ namespace WebOs.Controllers
                 response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/pdf");
                 response.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment")
                 {
-                    FileName = fileName
+                    FileNameStar = fileName // FileNameStar maneja no-ASCII sin tronar el header
                 };
 
                 return response;
